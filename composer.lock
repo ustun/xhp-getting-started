@@ -1,0 +1,65 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "d164a8d81bb86e5f49a4b2ebfeed882f",
+    "content-hash": "1dccfe800ad36507c1831f7e619393c3",
+    "packages": [
+        {
+            "name": "facebook/xhp-lib",
+            "version": "2.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/facebook/xhp-lib.git",
+                "reference": "75bd37a0aaf9f3e39bac7102aa5ecc8b083d136a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/facebook/xhp-lib/zipball/75bd37a0aaf9f3e39bac7102aa5ecc8b083d136a",
+                "reference": "75bd37a0aaf9f3e39bac7102aa5ecc8b083d136a",
+                "shasum": ""
+            },
+            "require": {
+                "hhvm": "~3.6"
+            },
+            "require-dev": {
+                "91carriage/phpunit-hhi": "^5.1.0",
+                "phpunit/phpunit": "^5.1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Class library for XHP",
+            "homepage": "https://github.com/facebook/xhp-lib",
+            "keywords": [
+                "facebook",
+                "hack",
+                "hhvm",
+                "xhp"
+            ],
+            "time": "2015-12-21 17:42:41"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

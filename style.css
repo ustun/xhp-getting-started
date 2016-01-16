@@ -1,0 +1,18 @@
+
+
+
+body {
+
+  background: #ededed;
+  font-family: sans-serif;
+  width: 800px;
+  margin: 0 auto;
+}
+
+
+div, a, ul {
+  display: block;
+  border: 3px dashed green;
+  margin: 20px;
+  padding: 20px;
+}
